@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Hindhupriya M - Bachelor of Computer Science student at KG College of Arts and Science (KGCAS), Coimbatore. Aspiring Full Stack Developer.">
+    <meta name="keywords" content="Hindhupriya M, Portfolio, Computer Science, KGCAS, Coimbatore, Web Developer, Full Stack, Java, Python, HTML, CSS, JavaScript">
+    <meta name="author" content="Hindhupriya M">
+
+    <title>Hindhupriya M | Portfolio - Full Stack Developer</title>
+
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-box">HM</span>
+                <span class="logo-text">
+                    <strong>Hindhupriya M</strong>
+                    <small>B.SC COMPUTER SCIENCE &bull; KGCAS</small>
+                </span>
+            </a>
+
+            <!-- Right Controls: Navigation + Theme Toggle + Mobile Menu -->
+            <div class="nav-actions">
+                <nav id="navLinks" class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- Dark / Light Mode Toggle Button -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode" title="Toggle Theme">
+                    <span class="theme-icon" id="themeIcon">🌙</span>
+                </button>
+
+                <!-- Mobile Hamburger Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Available for Internships & Projects</span>
+                    </div>
+
+                    <p class="eyebrow">HELLO &amp; WELCOME TO MY PORTFOLIO</p>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight-text">Hindhupriya</span>.<br>
+                        I build thoughtful<br>
+                        digital experiences<span class="dot">.</span>
+                    </h1>
+
+                    <p class="subtitle">
+                        Aspiring Full Stack Web Developer &bull; Computer Science Student at KG College of Arts and Science, Coimbatore. Passionate about solving real-world problems with elegant code and intuitive user interfaces.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="button button-primary">
+                            View My Work <span>&rarr;</span>
+                        </a>
+                        <a href="#contact" class="button button-outline">
+                            Get In Touch
+                        </a>
+                        <button class="button button-ghost" id="resumeBtn" title="Download Resume">
+                            📄 Resume
+                        </button>
+                    </div>
+
+                    <!-- Quick Highlights Counter -->
+                    <div class="hero-metrics">
+                        <div class="metric-item">
+                            <span class="metric-num">B.Sc</span>
+                            <span class="metric-label">Computer Science</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-num">4+</span>
+                            <span class="metric-label">Projects Built</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-num">6+</span>
+                            <span class="metric-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Profile Picture with Badges -->
+                <div class="hero-image-col">
+                    <div class="hero-image-wrapper">
+                        <div class="image-glow"></div>
+                        <div class="hero-image-frame">
+                            <img src="images/profile.png" 
+                                 alt="Hindhupriya M - Computer Science Student" 
+                                 id="profileImage"
+                                 loading="eager">
+                        </div>
+
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-top">
+                            <span class="badge-icon">🎓</span>
+                            <div class="badge-info">
+                                <strong>KGCAS</strong>
+                                <small>Coimbatore</small>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bottom">
+                            <span class="badge-icon">💻</span>
+                            <div class="badge-info">
+                                <strong>Aspiring Developer</strong>
+                                <small>Full Stack &amp; Software</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About Me<span class="dot">.</span></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="lead">
+                            I am a passionate <strong>Bachelor of Computer Science</strong> student at 
+                            <strong>KG College of Arts and Science (KGCAS)</strong>, Coimbatore.
+                        </p>
+                        <p>
+                            I have a strong foundation in core computer science disciplines, including Data Structures, Algorithms, Object-Oriented Programming, and Database Management. My true passion lies in bridging algorithmic problem solving with creative frontend and backend web development.
+                        </p>
+                        <p>
+                            I am constantly exploring new modern frameworks, honing my technical skills through hands-on projects, and preparing myself to contribute meaningfully to innovative development teams.
+                        </p>
+
+                        <!-- Personal Details Grid -->
+                        <div class="details-grid">
+                            <div class="detail-item">
+                                <span class="detail-label">Name:</span>
+                                <span class="detail-val">Hindhupriya M</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Degree:</span>
+                                <span class="detail-val">B.Sc. Computer Science</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">College:</span>
+                                <span class="detail-val">KG College of Arts and Science (KGCAS)</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Location:</span>
+                                <span class="detail-val">Coimbatore, Tamil Nadu, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Languages:</span>
+                                <span class="detail-val">English, Tamil</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Interests:</span>
+                                <span class="detail-val">Web Dev, Java, Python, UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Features Cards -->
+                    <div class="about-cards">
+                        <div class="feature-card">
+                            <div class="feature-icon">🧩</div>
+                            <div class="feature-body">
+                                <h3>Analytical Thinking</h3>
+                                <p>Applying solid mathematical and algorithmic logic to solve real-world technical problems efficiently.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">⚡</div>
+                            <div class="feature-body">
+                                <h3>Modern Web Development</h3>
+                                <p>Designing responsive, interactive, and user-centric web applications using modern web standards.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🌱</div>
+                            <div class="feature-body">
+                                <h3>Continuous Learning</h3>
+                                <p>Eager to explore new frameworks, software engineering best practices, and collaborative tooling.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education" id="education">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">ACADEMIC JOURNEY</p>
+                    <h2>Education<span class="dot">.</span></h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- College -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Bachelor of Science in Computer Science (B.Sc. CS)</h3>
+                                    <h4 class="institution">KG College of Arts and Science (KGCAS), Coimbatore</h4>
+                                </div>
+                                <span class="timeline-badge">2023 - 2026 (Pursuing)</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Undertaking comprehensive coursework covering fundamental and advanced computer science subjects. Actively participating in technical seminars, coding challenges, and collegiate workshops.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Data Structures</span>
+                                <span>Object-Oriented Programming (Java / C++)</span>
+                                <span>Database Management Systems (DBMS)</span>
+                                <span>Web Technologies</span>
+                                <span>Operating Systems</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- School -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Higher Secondary Certificate (HSC)</h3>
+                                    <h4 class="institution">State Board of Tamil Nadu</h4>
+                                </div>
+                                <span class="timeline-badge">Completed</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Specialized in Computer Science and Mathematics, building foundational knowledge in computer fundamentals, programming basics, and logic design.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Computer Science</span>
+                                <span>Mathematics</span>
+                                <span>Physics</span>
+                                <span>Chemistry</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+                    <h2>Skills &amp; Technologies<span class="dot">.</span></h2>
+                </div>
+
+                <div class="skills-categories-grid">
+                    <!-- Web Development -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <span class="category-icon">🌐</span>
+                            <h3>Frontend &amp; Web Technologies</h3>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip">HTML5</span>
+                            <span class="skill-chip">CSS3</span>
+                            <span class="skill-chip">JavaScript (ES6+)</span>
+                            <span class="skill-chip">Responsive Web Design</span>
+                            <span class="skill-chip">Flexbox &amp; Grid</span>
+                            <span class="skill-chip">DOM Manipulation</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <span class="category-icon">💻</span>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip">Java</span>
+                            <span class="skill-chip">Python</span>
+                            <span class="skill-chip">C Programming</span>
+                            <span class="skill-chip">C++ Basics</span>
+                            <span class="skill-chip">OOP Concepts</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Backend Concepts -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <span class="category-icon">🗄️</span>
+                            <h3>Databases &amp; Architecture</h3>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip">MySQL</span>
+                            <span class="skill-chip">SQL Queries</span>
+                            <span class="skill-chip">Relational Database Design</span>
+                            <span class="skill-chip">CRUD Operations</span>
+                        </div>
+                    </div>
+
+                    <!-- Developer Tools & Core Competencies -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <span class="category-icon">🛠️</span>
+                            <h3>Tools &amp; Core Competencies</h3>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip">Git &amp; GitHub</span>
+                            <span class="skill-chip">VS Code</span>
+                            <span class="skill-chip">Data Structures</span>
+                            <span class="skill-chip">Algorithm Analysis</span>
+                            <span class="skill-chip">Problem Solving</span>
+                            <span class="skill-chip">Debugging</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I'VE BUILT</p>
+                    <h2>Featured Projects<span class="dot">.</span></h2>
+                </div>
+
+                <div class="project-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-category">Algorithms &bull; Mathematics</span>
+                        </div>
+                        <h3 class="project-title">Matrix Operation Tool</h3>
+                        <p class="project-desc">
+                            A high-precision mathematical program performing fundamental and multidimensional matrix computations including addition, subtraction, scalar and matrix multiplication, and transpose operations with validation for dimensional compatibility.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C Programming</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Linear Algebra</span>
+                            <span class="tech-tag">CLI</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" onclick="openProjectModal('matrix')">
+                                Details &amp; Highlights &rarr;
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-category">Java &bull; Business Logic</span>
+                        </div>
+                        <h3 class="project-title">Income Tax Calculator</h3>
+                        <p class="project-desc">
+                            A robust Java application calculating taxable personal income, applicable deduction categories (such as 80C exemptions), and net income tax across multiple progressive tax slabs with accurate monetary validation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Financial Logic</span>
+                            <span class="tech-tag">CLI / GUI</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" onclick="openProjectModal('tax')">
+                                Details &amp; Highlights &rarr;
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-category">Data Structures &bull; Optimization</span>
+                        </div>
+                        <h3 class="project-title">Customer Transaction Analysis</h3>
+                        <p class="project-desc">
+                            An analytical data processing system that parses high-volume customer purchase and account transactions, sorting large datasets efficiently using Quick Sort and providing instant search and summary queries.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java / Python</span>
+                            <span class="tech-tag">Quick Sort</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" onclick="openProjectModal('transaction')">
+                                Details &amp; Highlights &rarr;
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 (Added) -->
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">04</span>
+                            <span class="project-category">Web Development &bull; UI/UX</span>
+                        </div>
+                        <h3 class="project-title">Interactive Personal Portfolio</h3>
+                        <p class="project-desc">
+                            A fully responsive, modern web portfolio crafted with semantic HTML5, CSS3, and JavaScript. Features interactive theme toggling (Dark/Light mode), dynamic navigation scrollspy, and accessible mobile controls.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive UI</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" onclick="openProjectModal('portfolio')">
+                                Details &amp; Highlights &rarr;
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section certifications" id="certifications">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">ACHIEVEMENTS &amp; RECOGNITION</p>
+                    <h2>Certifications &amp; Learning<span class="dot">.</span></h2>
+                </div>
+
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <div class="cert-badge">📜</div>
+                        <div class="cert-info">
+                            <h3>Python Programming Fundamentals</h3>
+                            <p class="cert-issuer">Technical Certification &bull; Hands-on Coding</p>
+                            <p class="cert-desc">Covered data structures, functions, file handling, and modular script development.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-badge">🌐</div>
+                        <div class="cert-info">
+                            <h3>Web Development Foundations</h3>
+                            <p class="cert-issuer">Frontend Development &bull; Responsive Design</p>
+                            <p class="cert-desc">Mastered HTML5 semantics, modern CSS Flexbox/Grid systems, and JavaScript fundamentals.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-badge">🏆</div>
+                        <div class="cert-info">
+                            <h3>Collegiate Technical Symposium &amp; Workshops</h3>
+                            <p class="cert-issuer">KG College of Arts and Science (KGCAS)</p>
+                            <p class="cert-desc">Participated actively in college coding events, technical presentations, and collaborative seminars.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="section-container">
+                <div class="section-heading text-center">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Have a project or opportunity?<br>
+                        Let's talk<span class="dot">.</span>
+                    </h2>
+                    <p class="contact-intro">
+                        I am currently open to internship opportunities, student collaborations, and full-stack web development projects. Feel free to reach out via message or email!
+                    </p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info-cards">
+                        <div class="contact-info-card">
+                            <div class="info-icon">📧</div>
+                            <div class="info-details">
+                                <span class="info-title">Email</span>
+                                <a href="mailto:hindhupriya.m@example.com" class="info-value">hindhupriya.m@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="info-icon">📍</div>
+                            <div class="info-details">
+                                <span class="info-title">Location</span>
+                                <span class="info-value">Coimbatore, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="info-icon">🏫</div>
+                            <div class="info-details">
+                                <span class="info-title">Institution</span>
+                                <span class="info-value">KG College of Arts and Science</span>
+                            </div>
+                        </div>
+
+                        <div class="social-links-box">
+                            <span class="social-title">Find Me Online:</span>
+                            <div class="social-buttons">
+                                <a href="https://github.com/hindhupriya-m" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                                    <span>🐙</span> GitHub
+                                </a>
+                                <a href="https://linkedin.com/in/hindhupriya-m" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                                    <span>💼</span> LinkedIn
+                                </a>
+                                <a href="mailto:hindhupriya.m@example.com" class="social-btn" title="Send Email">
+                                    <span>✉️</span> Direct Mail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Contact Form -->
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Your Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                                <span class="error-msg" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                                <span class="error-msg" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" placeholder="What would you like to discuss?" required>
+                                <span class="error-msg" id="subjectError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                                <span class="error-msg" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="button button-primary submit-btn" id="submitBtn">
+                                <span>Send Message &rarr;</span>
+                            </button>
+
+                            <!-- Success / Status Toast -->
+                            <div class="form-status" id="formStatus" role="alert"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Details Modal -->
+    <div class="modal" id="projectModal" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <div id="modalBody">
+                <!-- Dynamically populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Scroll back to top" title="Back to top">
+        &uarr;
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-box small">HM</span>
+                <div>
+                    <strong>Hindhupriya M</strong>
+                    <p>Bachelor of Computer Science &bull; KG College of Arts and Science, Coimbatore</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Hindhupriya M. All rights reserved. Crafted with care &amp; passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
